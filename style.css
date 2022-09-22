@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+#contenedor{
+    display: flex;
+    height: 500px;
+    width: 700px;
+    border: solid 1px;
+}
+
+#contentTermometro{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#celsius{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: solid 1px;
+}
+#proceso{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+#boton{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(162, 88, 88);
+    color: white;
+}
+#gradosFarenheit{
+    height: 50px;
+}
+#temperatura{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    max-height: 100%;
+    transform: rotate(180deg);
+}
