@@ -34,10 +34,10 @@
     align-items: center;
     text-align: center;
 }
-#boton{
+.btn{
     height: 50px;
     width: 70px;
-    background-color: rgb(162, 88, 88);
+    background-color: rgb(49, 89, 219);
     color: white;
 }
 #gradosFarenheit{
@@ -48,5 +48,12 @@
     align-items: center;
     border-radius: 10px;
     max-height: 100%;
+    transform: rotate(180deg);
+}
+#termometro{
+    border: solid 1px;
+    border-radius: 10px;
+    width: 40px;
+    height: 300px;
     transform: rotate(180deg);
 }
